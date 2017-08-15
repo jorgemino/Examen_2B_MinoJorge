@@ -17,7 +17,7 @@ module.exports = {
       required: true
     },
     pizza: {
-      collection: 'Pizza',
+      collection: 'Pizzas',
       via: 'fkIdUsuario'
     }
   },
