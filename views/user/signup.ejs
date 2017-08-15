@@ -1,17 +1,39 @@
-<h1>Signup</h1>
+<!doctype html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body background="">
+
 <form action="/signup" method="post">
 
-  <label for="name">What's your name?</label>
-  <input name="name" type="text"/>
-  <br/>
+  <div class="row">
 
-  <label for="email">What's your email?</label>
-  <input name="email" type="text"/>
-  <br/>
+    <div class="col-sm-4"></div>
 
-  <label for="password">Choose a Password</label>
-  <input name="password" type="password"/>
-  <br/>
+    <div class="col-sm-4">
+      <h1>Registro</h1>
+      <label for="name">Cual es tu nombre</label>
+      <input name="name" type="text"/>
+      <br/>
 
-  <input type="submit"/>
+      <label for="email">Cual es tu correo</label>
+      <input name="email" type="text"/>
+      <br/>
+
+      <label for="password">Password</label>
+      <input name="password" type="password"/>
+      <br/>
+
+      <input type="submit"/>
+    </div>
+  </div>
 </form>
+
+</body>
+</html>

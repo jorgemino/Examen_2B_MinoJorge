@@ -1,8 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html >
   <head>
     <title>Login</title>
+    <div class="col-sm-3">
+    <marquee>Pizzas Jorge</marquee>
+    </div>
+    <div class="col-sm-3">
 
+    <marquee direction="right"> Pizzas Jorge</marquee>
+    </div>
     <!-- Viewport mobile tag for sensible mobile support -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -11,14 +17,14 @@
     <!--STYLES END-->
   </head>
 
-  <body>
+  <body background="http://files.alimentos-akira.webnode.com.ve/200000008-8b08d8c031/pizza.png">
 
     <h1>Login</h1>
 
     <% if (req.session.me) { %>
-    <a href="/logout">Logout</a>
+    <a href="/logout" style="color: brown">Logout</a>
     <% } else { %>
-    <a href="/login">Login</a> | <a href="/signup">Signup</a>
+    <a href="/login" style="color: brown">Login</a> | <a href="/signup" style="color:" >Registrarse</a>
     <% } %>
 
 
