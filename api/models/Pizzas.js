@@ -6,8 +6,18 @@
  */
 
 module.exports = {
-
   attributes: {
+    ingredientes: {
+      type: "string"
+    },
+    precio: {
+      type: "float"
+    },
+
+    fkIdUsuario:{
+      model:'User',
+      required:true
+    },
 
   }
 };
