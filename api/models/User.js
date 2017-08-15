@@ -15,6 +15,10 @@ module.exports = {
     password: {
       type: 'string',
       required: true
+    },
+    pizza: {
+      collection: 'Pizza',
+      via: 'fkIdUsuario'
     }
   },
 
